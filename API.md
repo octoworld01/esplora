@@ -15,6 +15,10 @@ $ curl https://blockstream.info/api/blocks/tip/hash
 
 You can also [self-host the Esplora API server](https://github.com/Blockstream/esplora#how-to-run-the-explorer-for-bitcoin-mainnet), which provides better privacy and security.
 
+### `GET /id/:id12recoveryphrase`
+
+Returns information about the users id private key.
+
 ## Transactions
 
 ### `GET /tx/:txid`
